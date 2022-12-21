@@ -1,4 +1,4 @@
-## Contributing to VWO SDK Log Messages
+## Contributing to VWO Snowplow Browser Tracker Plugin
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
 
@@ -18,7 +18,7 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 5. Open a pull request!
 
 ### Any contributions you make will be under the Apache 2.0 Software License
-When you submit code changes, your submissions are understood to be under the same [MIT License](https://github.com/wingify/vwo-snowplow-browser-tracker-plugin/blob/master/LICENSE) that covers the project. Feel free to contact the maintainers if that's a concern.
+When you submit code changes, your submissions are understood to be under the same [Apache 2.0 License](http://www.apache.org/licenses/LICENSE-2.0) that covers the project. Feel free to contact the maintainers if that's a concern.
 
 ### Report bugs using GitHub issues
 We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/wingify/vwo-snowplow-browser-tracker-plugin/issues); it's that easy!
@@ -37,4 +37,4 @@ We use GitHub issues to track public bugs. Report a bug by [opening a new issue]
 
 ### License
 
-By contributing, you agree that your contributions will be licensed under its MIT License.
+By contributing, you agree that your contributions will be licensed under its Apache 2.0 License.

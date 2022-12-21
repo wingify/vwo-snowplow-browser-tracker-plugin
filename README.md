@@ -1,4 +1,4 @@
-# VWO Snowplow Browser Tracker PLugin
+# VWO Snowplow Browser Tracker Plugin
 
 Browser Plugin to be used with `@snowplow/browser-tracker`.
 
@@ -14,7 +14,7 @@ Build with [Node.js](https://nodejs.org/en/) (14 or 16) and [Rush](https://rushj
 With npm:
 
 ```bash
-npm install @snowplow/browser-plugin-vwo
+npm install vwo-snowplow-browser-tracker-plugin
 ```
 
 ## Usage

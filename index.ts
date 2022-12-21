@@ -10,14 +10,14 @@ declare global {
 
 export function VWOPlugin(): BrowserPlugin {
 
-  /**
-   * Initializing a listner to Check that which variations applied on the visitors
-   */
+    /**
+     * Initializing a listner to Check that which variations applied on the visitors
+     */
     function initListener(tracker: BrowserTracker) {
         window.VWO = window.VWO || [];
         window.VWO.push([
             "onVariationApplied",
-            function (data : Array<string | number> ) {
+            function (data: Array<string | number>) {
                 if (!data) return;
 
                 var expId = data[1];
@@ -32,7 +32,7 @@ export function VWOPlugin(): BrowserPlugin {
                         category: 'VWO',
                         action: expId + ":" + window._vwo_exp[expId].name,
                         label: variationId + ":" + window._vwo_exp[expId].comb_n[variationId],
-                        value: 0.0
+                        property: window.VWO.data.vin.uuid,
                     }));
                 }
 
