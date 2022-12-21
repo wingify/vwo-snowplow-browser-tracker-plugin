@@ -1,0 +1,36 @@
+{
+  "name": "vwo-snowplow-browser-tracker-plugin",
+  "version": "0.0.1",
+  "description": "VWO Snowplow Browser Tracker Plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@snowplow/browser-tracker-core": "^3.7.0",
+    "@snowplow/tracker-core": "^3.7.0",
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "typescript": "~4.6.2"
+  },
+  "peerDependencies": {
+    "@snowplow/browser-tracker": "~3.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wingify/vwo-snowplow-browser-tracker-plugin.git"
+  },
+  "keywords": [
+    "VWO",
+    "Snowplow",
+    "browser",
+    "tracker"
+  ],
+  "author": "VWO",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wingify/vwo-snowplow-browser-tracker-plugin/issues"
+  },
+  "homepage": "https://github.com/wingify/vwo-snowplow-browser-tracker-plugin#readme"
+}
