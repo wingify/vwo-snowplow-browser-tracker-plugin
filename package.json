@@ -2,10 +2,9 @@
   "name": "vwo-snowplow-browser-tracker-plugin",
   "version": "0.0.1",
   "description": "VWO Snowplow Browser Tracker Plugin",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@snowplow/browser-tracker-core": "^3.7.0",
