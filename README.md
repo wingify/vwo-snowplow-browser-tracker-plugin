@@ -9,6 +9,7 @@ For NodeJs/JavasScript SDK
 ```bash
 # via npm
 npm install vwo-snowplow-browser-tracker-plugin
+
 # via yarn
 yarn add vwo-snowplow-browser-tracker-plugin
 ```
@@ -34,7 +35,7 @@ Please go through our [contributing guidelines](https://github.com/wingify/vwo-s
 
 [Code of Conduct](https://github.com/wingify/vwo-snowplow-browser-tracker-plugin/blob/master/CODE_OF_CONDUCT.md)
 
-## license
+## License
 
 [Apache License, Version 2.0](https://github.com/wingify/vwo-snowplow-browser-tracker-plugin/blob/master/LICENSE)
 

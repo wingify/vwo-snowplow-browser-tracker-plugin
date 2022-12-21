@@ -27,7 +27,7 @@
     "browser",
     "tracker"
   ],
-  "author": "VWO",
+  "author": "dev@wingify.com",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/wingify/vwo-snowplow-browser-tracker-plugin/issues"

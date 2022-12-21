@@ -11,7 +11,7 @@ declare global {
 export function VWOPlugin(): BrowserPlugin {
 
     /**
-     * Initializing a listner to Check that which variations applied on the visitors
+     * Attaching a listener which will listen to variation applied events triggered by VWO
      */
     function initListener(tracker: BrowserTracker) {
         window.VWO = window.VWO || [];
